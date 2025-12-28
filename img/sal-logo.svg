@@ -1,0 +1,40 @@
+<svg width="300" height="300" viewBox="0 0 300 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background circle -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1f4fd8"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="150" cy="150" r="140" fill="url(#bgGradient)" />
+
+  <!-- Inner soft ring -->
+  <circle cx="150" cy="150" r="120"
+          fill="none"
+          stroke="rgba(255,255,255,0.25)"
+          stroke-width="4"/>
+
+  <!-- Text -->
+  <text x="150" y="165"
+        text-anchor="middle"
+        font-size="96"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
+        fill="#ffffff"
+        letter-spacing="6">
+    SAL
+  </text>
+
+  <!-- Subtitle -->
+  <text x="150" y="205"
+        text-anchor="middle"
+        font-size="20"
+        font-family="Arial, Helvetica, sans-serif"
+        fill="#e5e7eb"
+        letter-spacing="2">
+    DESIGN
+  </text>
+</svg>
